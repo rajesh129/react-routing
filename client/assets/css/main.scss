@@ -2,3 +2,24 @@
     margin: 0;
     padding: 0;
 }
+nav {
+    background-color: #f7f6f6;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    li, a {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    a {
+        color: #333;
+        text-decoration: none;
+        padding: 10px;
+        &:hover {
+            background-color: #ccc;
+            color: #fff;
+        }
+    }
+}
+main { 
+    padding: 15px; 
+    ul { margin: 0 15px; }
+}
